@@ -8,25 +8,25 @@
 
 print("=========---创建集合---=========")
 # 创建格式
-parame = {1,2,3,4}
+parame = {1, 2, 3, 4}
 print(parame)
 print(type(parame))
 
 print("=========---集合的基本操作---=========")
 # 添加元素
-s = {1,2,3,4,5}
+s = {1, 2, 3, 4, 5}
 print(s)
 s.add(6)
 print(s)
-s.update((567,345))
+s.update((567, 345))
 print(s) # update添加元素参数可以是列表、元组、字典等
 
 # 移除元素
 s.remove(567)
-print('移除567：' , s)
+print('移除567：', s)
 # s.remove(567) 移除不存在的元素会报错
 
-s.discard(567) # 移除不存在的元素不会报错
+s.discard(567)  # 移除不存在的元素不会报错
 print(s)
 
 # 随机删除集合中的元素
