@@ -1,0 +1,11 @@
+print函数在2.x和3.x的区别
+    1，打印方式不同
+        2.x：print "要打印的内容"
+        3.x：print(要打印的内容)
+    2，交互函数不同
+　　  python2.x：raw_input() input()
+　　      1) raw_input()函数的输入内容类型为字符串
+　　      2) input()函数的输入内容类型为输入字符的类型
+　    python3.x：input()
+　　      1) raw_input()被废除，统一使用input()
+　　      2) input()函数的输入内容类型为字符串
